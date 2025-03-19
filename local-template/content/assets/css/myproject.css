@@ -1,0 +1,10 @@
+:root {
+    --navbar-bg-color: #505050; /* 2. Header container color */
+    --footer-bg-color: #505050; /* 3. Footer background color*/
+    --btn-hover-color: #808080; /* 3. Hover background color*/
+}
+#segment-footer > .container{
+    background-color: #930000;
+    color: var(--footer-text-color);
+}
+

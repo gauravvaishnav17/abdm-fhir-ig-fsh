@@ -1,0 +1,65 @@
+﻿{
+  "package-id": "ndhm.in",
+  "title": "FHIR Implementation Guide for ABDM",
+  "canonical": "https://nrces.in/ndhm/fhir/r4",
+  "introduction": "FHIR Implementation Guide for Ayushman Bharat Digital Mission",
+  "list": [
+    {
+      "version": "3.0.0",
+      "date": "2023-04-20",
+      "desc": "Release updates of the FHIR Implementation Guide for ABDM v3.0.0:<br>- Support to Health Claim Exchange: New FHIR profile for insurance workflow <br>- Introduced CodeSystems and ValueSets Identifier Type Code, Program Code, SupportingInfo Category, SupportingInfo Code, Benefit Category, ProductOrService under terminology tab. <br>- Bugs & Improvements",
+      "path": "https://nrces.in/ndhm/fhir/r4",
+      "status": "release",
+      "sequence": "Publications",
+      "current": true,
+      "fhirversion": "4.0.1"
+    },
+    {
+      "version": "2.5.0",
+      "path": "https://nrces.in/ndhm/fhir/r4/2.5.0",
+      "status": "release",
+      "sequence": "Publications",
+      "fhirversion": "4.0.1",
+      "date": "2023-03-15",
+      "desc": "Release updates of the FHIR Implementation Guide for ABDM v2.5.0:<br>- Updated IG with a new template  <br>- Added history template support to previous IG build  <br>- OPConsultRecord: Introduced a new section called OtherObservation to record findings/Observations that are not covered under existing sections<br>- Updated Immunization profile for WHO-DDCC compliance, added BrandName extension with MUST support flag, also added MUST support flag to elements like Location, protocolApplied.doseNumber. Added example for Bundle-ImmunizationRecord<br>- Updated resources profiles for identified changes like elements to refer ABDM profiles, change of fixed value elements and other identified changes<br>- Added EncounterType valueset under terminology section "      
+    
+    },
+
+        {
+      "version": "2.0.1",
+      "desc": "Release updates of the FHIR Implementation Guide for ABDM v2.0.1:<br>- Resolved bugs and improvements <br>- Updated profiles of MedicationRequest and DiagnosticReportRecord <br>- Updated text division for more clarity",
+      "path": "https://nrces.in/ndhm/fhir/r4/2.0.1",
+      "status": "release",
+      "fhirversion": "4.0.1",
+      "sequence": "Publications",
+      "date": "2021-09-03"
+    },
+    {
+      "version": "2.0",
+      "desc": "Release updates of FHIR Implementation Guide for ABDM v2.0:\n * New Additions: <br> 1. Clinical Artifacts:<br>- WellnessRecord: It is introduced to record the details of daily observations such as vital signs, body measurements, physical activities, etc. collected via various healthcare devices by patient.<br> - HealthDocumentRecord: It is introduced to capture and share any clinical/health document.<br> 2. Profiles:<br> - ObservationBodyMeasurement<br> - ObservationGeneralAssessment<br> - ObservationLifestyle<br> - ObservationPhysicalActivity<br> - ObservationVitalSigns<br> - ObservationWomenHealth<br> 3. ValueSets for:<br> - Lifestyle<br> - Women Health<br> - General Assessment<br> - Physical Activity<br> - Body Measurement<br> - Vital Signs<br> - Alcohol Drinking Status<br> - Tobacco Smoking Status<br> - Tobacco Chewing Status<br>- Mental Status<br> - Diet Type<br> - General Wellbeing<br> 4. Examples:<br> - 35 examples covering WellnessRecord, HealthDocumentRecord and various new Observation profiles.<br> 5. Facility to display and copy the canonical URL of Profiles.",
+      "path": "https://nrces.in/ndhm/fhir/r4/2.0",
+      "status": "release",
+      "fhirversion": "4.0.1",
+      "sequence": "Publications",
+      "date": "2021-05-13"
+    },
+    {
+      "version": "1.2",
+      "desc": "Release updates of FHIR Implementation Guide for ABDM v1.2:<br> - New Clinical artifact ‘ImmunizationRecord’ is introduced to record one or more Immunization taken by a patient and to mention details of next immunization to be taken. The record also has section for DocumentReference to support scanned document<br> - Inclusion of an example for ImmunizationRecord<br> - ImmunizationRecommendation resource profile is added to support the immunization charting<br> - A new Value Set for Vaccine Codes is introduced which will be referred in example binding by Immunization resource<br> - Updated Immunization Resource profile for necessary changes",
+      "path": "https://nrces.in/ndhm/fhir/r4/1.2",
+      "status": "release",
+      "fhirversion": "4.0.1",
+      "sequence": "Publications",
+      "date": "2021-04-30"
+    },
+    {
+      "version": "1.0.0",
+      "desc": "The FHIR Implementation Guide for ABDM Health Data Interchange Specifications 1.0 is based on FHIR Version R4 and defines the minimum conformance requirements for accessing health data to achieve continuity of care in the Indian context. <br>It contains following clinical artifacts, which are profiles based on Composition resource of FHIR R4.0.1:<br>- DiagnosticReportRecord<br>- DischargeSummaryRecord<br>- OPConsultRecord<br>- PrescriptionRecord",
+      "path": "https://nrces.in/ndhm/fhir/r4/1.0.0",
+      "status": "release",
+      "fhirversion": "4.0.1",
+      "sequence": "Publications",
+      "date": "2020-08-17"
+    }
+  ]
+}
