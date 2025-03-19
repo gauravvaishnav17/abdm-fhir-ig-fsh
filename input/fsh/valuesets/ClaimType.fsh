@@ -1,0 +1,36 @@
+ValueSet: ClaimType
+Id: ndhm-claim-type
+Title: "Claim Type"
+Description: "This ValueSet contains a set of codes that can be utilized to state the type of Claim."
+* ^version = "6.0.0"
+* ^status = #draft
+* ^experimental = false
+* ^date = "2023-07-20"
+* ^publisher = "National Resource Center for EHR Standards"
+* ^contact.telecom.system = #url
+* ^contact.telecom.value = "http://nrces.in/"
+* ^jurisdiction = urn:iso:std:iso:3166#IN
+* SNOMED_CT#737481003 "Inpatient care management (procedure)"
+* SNOMED_CT#108241001 "Dialysis procedure (procedure)"
+* SNOMED_CT#367336001 "Chemotherapy (procedure)"
+* SNOMED_CT#713603004 "Advance care planning (procedure)"
+* SNOMED_CT#710967003 "Management of health status after discharge from hospital (procedure)"
+* SNOMED_CT#409972000 "Pre-hospital care (situation)"
+* SNOMED_CT#51032003 "Hospital admission, donor for transplant organ (procedure)"
+* SNOMED_CT#49122002 "Ambulance, device (physical object)"
+* SNOMED_CT#275926002 "Screening - health check (procedure)"
+* SNOMED_CT#33879002 "Administration of vaccine to produce active immunity (procedure)"
+* SNOMED_CT#60689008 "Home care of patient (regime/therapy)"
+* SNOMED_CT#410225009 "Mental health care management (procedure)"
+* SNOMED_CT#410083007 "Rehabilitation therapy management (procedure)"
+* SNOMED_CT#737492002 "Outpatient care management (procedure)"
+* SNOMED_CT#15220000 "Laboratory test (procedure)"
+* SNOMED_CT#763158003 "Medicinal product (product)"
+* SNOMED_CT#410345004 "Medical/dental care case management (procedure)"
+* SNOMED_CT#385907003 "Eye care management (procedure)"
+* SNOMED_CT#737850002 "Day care case management (procedure)"
+* SNOMED_CT#1259939000 "Ayurveda medicine (qualifier value)"
+* SNOMED_CT#1259938008 "Homeopathic medicine (qualifier value)"
+* SNOMED_CT#1259940003 "Yoga medicine (qualifier value)"
+* SNOMED_CT#1259218001 "Unani medicine (qualifier value)"
+* SNOMED_CT#1259219009 "Siddha medicine (qualifier value)"
